@@ -6,7 +6,7 @@ export default function About() {
       <section id="about" className="about-section">
         <h2>About Me</h2>
         <p>
-        I'm a JavaScript-curious, front end leaning, programmer trying to function in the algorithm.  
+        I'm a JavaScript-curious, front-end-leaning programmer, trying to function in the algorithm 
         I enjoy building web applications, solving problems, and learning new technologies.
 
         I've been playing with code on and off since Netscape Composer made HTML so easy. Took a 10 year break and the advncements and changes are amazing. 
