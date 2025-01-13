@@ -28,6 +28,11 @@ export default function Quiz() {
       correctAnswer: "Gordon Freeman"
     },  
     {
+      question: "Magic-Users deserve at least a D6 for hit die",
+      options: ["Yes, intelligence doesn't make you weak", "No, nuts to those casters!", "What is a magic-user?"],
+      correctAnswer: "Yes, intelligence doesn't make you weak"
+    },
+    {
       question: "Do you want to contact me about a great job opportunity?",
       options: ["Yes", "Yes", "Yes", "Yes"],
       correctAnswer: "Yes"
@@ -66,7 +71,7 @@ export default function Quiz() {
           <p>
             You scored {score} out of {questions.length}
           </p>
-          <button onClick={resetQuiz}>Try Again</button>
+          <button onClick={resetQuiz}>Now, make me that offer!</button>
         </div>
       ) : (
         <div className="question-section">

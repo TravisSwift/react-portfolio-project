@@ -25,7 +25,7 @@ export default function Projects() {
       },
       {
         title: "Birthday Card",
-        description: "A simple, birthday celebration with HTML, CSS and JS",
+        description: "A simple, one page, birthday celebration with HTML, CSS and JS",
         link: "https://travisswift.github.io/cake_day_alex/"
       },
       
@@ -49,7 +49,7 @@ export default function Projects() {
 
       {
         title: "Food Festival App",
-        description: "A website for a local food festival using html, css, JS, JSX, and React. This was a walkthrough project with the University of Texas boot camp.",
+        description: "A mock-up website for a local food festival using html, css, JS, JSX, and React. This was a walkthrough project with the University of Texas boot camp.",
         link: "https://travisswift.github.io/food-festival/index.html"
       }
 
