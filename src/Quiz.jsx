@@ -18,7 +18,7 @@ export default function Quiz() {
       correctAnswer: "Yes"
     },
     {
-      question: "When ending a round of gaming, what is common, friendly comment?",
+      question: "When ending a round of gaming, what is a common, friendly comment?",
       options: ["Git Gud", "Rush B", "GG", "No scope!"],
       correctAnswer: "GG"
     },
