@@ -17,7 +17,7 @@ export default function About() {
 
             <p> I would love to work with mobile games. As a long time PC and table top gamer (AD&D First Edition FTW!, Half-Life, Battlefield, Counter-Strike, and all three Baldur's Gates) it would be fun to be part of building someone's dream game.</p>
 
-            <p>This portfolio is a collection of course work, code exploration, and various apps from tuorials and walk throughs. </p>
+            <p>This portfolio is a collection of course work, code exploration, and various apps from tutorials and walk throughs. </p>
       </p>
       <h2>Skills Learned</h2>
       <ul className="skills-list">      
