@@ -7,7 +7,7 @@ export default function Hero() {
 <section id="home" className="hero">
   <div className="hero-content">
     <h1>Hi, I’m Travis</h1>
-    <p>A JavaScript-curious, front-end leaning developer executing life’s code one function at a time</p>
+    <p>I'm a JavaScript-curious, front-end-leaning programmer, trying to function in the algorithmn. </p>
     <a href="#projects">
       <button className="cta-button">View My Work</button>
     </a>
