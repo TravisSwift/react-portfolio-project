@@ -116,9 +116,9 @@ button:hover {
   list-style-type: none;
   padding: 0;
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  flex-wrap: wrap; 
   justify-content: center;
-  gap: 10px; /* Reduced gap for better spacing on smaller screens */
+  gap: 10px;  
   max-width: 100%; /* Ensure the container doesn't overflow */
 }
 
@@ -128,8 +128,8 @@ button:hover {
   color: var(--text-color);
   border-radius: 5px;
   text-align: center;
-  max-width: 100px; /* Limit the width of each skill item */
-  flex: 1 1 auto; /* Allow items to shrink and grow as needed */
+  max-width: 100px;  
+  flex: 1 1 auto;  
 }
 
 

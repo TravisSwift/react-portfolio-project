@@ -9,13 +9,13 @@ export default function About() {
         I'm a JavaScript-curious, front end leaning, programmer trying to function in the algorithm.  
         I enjoy building web applications, solving problems, and learning new technologies.
 
-        I've been playing with code on and off since Netscape Composer made HTML so easy. 
+        I've been playing with code on and off since Netscape Composer made HTML so easy. Took a 10 year break and the advncements and changes are amazing. 
 
-        <p>To learn more I have recently attended two programming boot camps, University of Texas Full Stack Developer Boot Camp and  Ancora College Web App Javascript Developer course.
+        <p>To learn more I have attended two programming boot camps, University of Texas Full Stack Developer Boot Camp and  Ancora College Web App Javascript Developer course.
             
             I have been told, if you keep at it long enough it will finally click. There has been no click yet and I am too far in to quit now! I will continue playing with code and seeing where it takes me.</p>
 
-            <p> I would love to work with mobile games. As a long time PC and table top gamer (AD&D First Edition FTW!, Battlefield series, Counter-Strike, and all three Baldur's Gates) it would be fun to be part of building someone's dream game.</p>
+            <p> I would love to work with mobile games. As a long time PC and table top gamer (AD&D First Edition FTW!, Half-Life, Battlefield, Counter-Strike, and all three Baldur's Gates) it would be fun to be part of building someone's dream game.</p>
 
             <p>This portfolio is a collection of course work, code exporation, and various apps from tuorials and walk throughs. </p>
       </p>
