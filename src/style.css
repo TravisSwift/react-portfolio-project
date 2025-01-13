@@ -1,0 +1,313 @@
+/* Default Color Palette (Secondary Style) */
+:root {
+  --primary-color: #9C8372ff;        /* Beaver */
+  --secondary-color: #57838Dff;      /* Air Force Blue */
+  --background-color: #9BD3C6ff;     /* Tiffany Blue */
+  --accent-color: #6E292Aff;         /* Garnet */
+  --text-color: #f8f5f5;
+  --heading-color: #D08655ff;        /* Persian Orange */
+}
+
+/* Alternate Dark Mode Palette */
+:root.alternate-palette {
+  --primary-color: #1e1e1e;
+  --secondary-color: #333;
+  --background-color: #121212;
+  --accent-color: #007bff;
+  --text-color: #f8f9fa;
+  --heading-color: #ffc107;
+}
+
+/* General Styles */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Merriweather', serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* About Section */
+.about-section {
+  padding: 40px;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center;
+  gap: 10px; /* Reduced gap for better spacing on smaller screens */
+  max-width: 100%; /* Ensure the container doesn't overflow */
+}
+
+.skills-list li {
+  padding: 10px 15px;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  text-align: center;
+  max-width: 100px; /* Limit the width of each skill item */
+  flex: 1 1 auto; /* Allow items to shrink and grow as needed */
+}
+
+
+/* Projects Section */
+.projects-section {
+  padding: 40px;
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.projects-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  padding: 20px;
+  width: 300px;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: left;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.project-card p {
+  margin: 0 0 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.project-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 40px;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.contact-form button:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/* Scroll-to-Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+  background-color: var(--secondary-color);
+}
+
+.quiz-section {
+  padding: 40px;
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.question-section p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.options-section button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.options-section button:hover {
+  background-color: var(--secondary-color);
+}
+
+.score-section p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.score-section button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.score-section button:hover {
+  background-color: var(--secondary-color);
+}
