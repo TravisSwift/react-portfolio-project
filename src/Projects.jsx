@@ -37,7 +37,7 @@ export default function Projects() {
 
       {
         title: "Mock-Up Website",
-        description: "A mock up wesbsite practicing html, css and js.",
+        description: "A mock up wesbsite with html, css and js.",
         link: "https://travisswift.github.io/Create-An-Item/"
       },
 
